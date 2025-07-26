@@ -403,3 +403,64 @@ a:hover {
     width: 753px;
     height: 410px;
 }
+
+@media screen and (max-width: 576px) {
+
+    .items1,
+    .items2,
+    .items3 {
+        display: none;
+    }
+
+
+    .Ourplant {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .badge {
+        display: none;
+    }
+
+    .plnatlover {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Bmargin {
+        display: none;
+    }
+
+    .Tmargin {
+        display: none;
+    }
+
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img3 {
+        background:
+            linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+            url(../styles/assets/deal-zabo.png);
+        border-radius: 10px;
+        width: 376px;
+        height: 190px;
+    }
+
+    .store-pic {
+        overflow: hidden;
+    }
+
+}
