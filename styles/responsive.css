@@ -1,0 +1,405 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-serif-font {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* share design */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.bg {
+    background-color: #F5F8FF;
+}
+
+.row a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #6B7280;
+}
+
+.items2 a,
+.items3 a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #6B7280;
+}
+
+.items1 a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #252432;
+}
+
+.items4 a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #000000;
+}
+
+.items4 img {
+    width: 20px;
+    height: 20px;
+}
+
+a:hover {
+    text-shadow: 3px 3px 5px rgba(12, 46, 65, 0.214);
+}
+
+.Tmargin {
+    margin-bottom: 50px;
+}
+
+.Bmargin {
+    margin-bottom: 100px;
+}
+
+/* nav design */
+.navbar {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-items {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 20px;
+    align-items: center;
+}
+
+.Ourplant {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+#yellowtitile {
+    color: #E95A08;
+}
+
+.title {
+    font-size: 4rem;
+}
+
+.planttitle {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.paragraph {
+    font-size: 1.38rem;
+    color: rgba(41, 40, 40, 0.816);
+}
+
+.plants-section {
+    margin-top: 150px;
+}
+
+.ourplant {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+}
+
+.fname {
+    font-size: 1.35rem;
+    color: #111111;
+}
+
+.fprice {
+    font-size: 1.35rem;
+    color: #111111;
+    font-weight: bold;
+}
+
+.btn-buy {
+    background-color: #E95A08;
+    color: #FFFFFF;
+    width: 270px;
+    height: 50px;
+    border: none;
+    /* fixed border syntax */
+    font-weight: bold;
+}
+
+.btn-buy:hover {
+    box-shadow: 10px 10px 40px #7d4343;
+    background-color: #252432;
+}
+
+.card {
+    text-align: center;
+    max-height: 485px;
+    width: 270px;
+}
+
+.plnatlover {
+    display: flex;
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.store-pic {
+    max-width: 540px;
+    min-height: 590px;
+}
+
+.shop {
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+
+.titlep {
+    font-size: 2rem;
+}
+
+.artical {
+    margin-top: 100px;
+}
+
+.fllove {
+    height: 137px;
+    max-width: 540px;
+    width: 100%;
+    color: #8987A1;
+    font-size: 1.3rem;
+    list-style: circle;
+}
+
+.join {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+    height: 533px;
+    background-image: url(../styles/assets/news-letter-bg.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email {
+    text-align: center;
+}
+
+.jtitle {
+    font-size: 4rem;
+    color: #FFFFFF;
+}
+
+.btn-sub {
+    font-size: 1rem;
+    width: 186px;
+    height: 50px;
+    background-color: #E95A08;
+    color: #FFFFFF;
+    border: none;
+    /* fixed border syntax */
+    font-weight: bold;
+}
+
+.btn-sub:hover {
+    box-shadow: 10px 10px 40px #000000;
+    background-color: #272459;
+}
+
+.email-input input {
+    max-width: 600px;
+    width: 100%;
+    height: 45px;
+}
+
+.email-input input::placeholder {
+    font-size: 18px;
+    color: #040303;
+    text-align: center;
+}
+
+.email-input input:hover {
+    border: 2px solid #4CAF50;
+}
+
+/* footer section design */
+
+.footer-section {
+    max-width: 1440px;
+    width: 100%;
+    height: 348px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    max-width: 1140px;
+    width: 100%;
+    height: 248px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row,
+.icon {
+    list-style: none;
+    padding-bottom: 30px;
+}
+
+.logo {
+    width: 359px;
+}
+
+.socialmedia ul {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* Challenge */
+
+.badge {
+    position: absolute;
+    transform: translate(-50%, -40%);
+    width: 286px;
+    height: 286px;
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: translate(-50%, -40%) rotate(0deg);
+    }
+
+    to {
+        transform: translate(-50%, -40%) rotate(360deg);
+    }
+}
+
+.ldeal {
+    font-weight: bold;
+    font-size: 4rem;
+    /* added unit */
+}
+
+.challengepart {
+    margin-bottom: 100px;
+}
+
+.latestdeal {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.deal {
+    max-width: 888px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.37rem;
+    /* added unit */
+}
+
+.grid-container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.shopnow a {
+    font-weight: 500;
+    /* removed px */
+    color: #FFFFFF;
+    font-size: 1.75rem;
+}
+
+.rshopnow a {
+    font-weight: 500;
+    /* removed px */
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+.rfontdesign {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #F5F8FF;
+    text-align: center;
+}
+
+.fontdesign {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #F5F8FF;
+    text-align: center;
+}
+
+.img1 {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url(../styles/assets/deal-bloom.png);
+    border-radius: 10px;
+    width: 367px;
+    height: 193px;
+    margin-bottom: 20px;
+}
+
+.img2 {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url(../styles/assets/deal-ana.png);
+    border-radius: 10px;
+    width: 367px;
+    height: 193px;
+}
+
+.img3 {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url(../styles/assets/deal-zabo.png);
+    border-radius: 10px;
+    width: 753px;
+    height: 410px;
+}
